@@ -19,7 +19,7 @@ const total = {
 function App() {
   const [body, setBody] = useState(10);
   const [eyes, setEyes] = useState(2);
-  const [hair, setHair] = useState(49);
+  const [hair, setHair] = useState(53);
   const [mouth, setMouth] = useState(2);
   const [eyebrows, setEyeBrows] = useState(0);
   const [hat, setHat] = useState(11);
