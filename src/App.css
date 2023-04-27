@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1130px) {
+  #main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #parts-container {
+    max-width: 400px;
+  }
+  .avatar-wrapper {
+    -webkit-box-shadow: -1px 9px 13px 5px #000000;
+    box-shadow: -1px 9px 13px 5px #000000;
+    margin-top: 20px;
+  }
+}
+body {
+  background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0,
+    radial-gradient(circle closest-side, #ffffff 53%, rgba(255, 255, 255, 0) 0)
+      0 0,
+    radial-gradient(circle closest-side, #ffffff 50%, rgba(255, 255, 255, 0) 0)
+      55px 0 #48b;
+  background-size: 110px 200px;
+  background-repeat: repeat-x;
+}
+
+#title-container {
+  text-align: center;
+}
+
+#title-1 {
+  color: #5271ff;
+  font: bold 45px Sans-Serif;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#character-display-container {
+  width: 400px;
+}
+
+.parts-title {
+  font-size: 30px;
+  color: white;
+}
+.avatar-wrapper {
+  border: 4px solid white;
+  position: sticky;
+  top: 150px;
+  height: 450px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.button {
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+  top: 89%;
+  right: 40%;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  /* border: rgba(0, 0, 0, 0.3); */
+}
+
+#parts-container {
+  width: 750px;
+  text-align: center;
+}
+
+.img-lists {
+  border: 8px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #abe9ffff;
+
+  -webkit-box-shadow: 5px -9px 7px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px -9px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+.img-parts {
+  border: 2px solid #48b;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.img-parts:hover {
+  background-color: white;
+}
